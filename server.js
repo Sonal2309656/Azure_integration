@@ -1,6 +1,6 @@
 require('dotenv').config()
 const express = require('express')
-const helloRouter = require('./hello')
+const helloRouter = require('./routes/hello')
 
 app.use(express.json())
 app.use('./hello', helloRouter)
